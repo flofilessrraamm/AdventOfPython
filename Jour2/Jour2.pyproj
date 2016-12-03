@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>e54fa950-5679-4cfe-8677-b25bf7bbf8bf</ProjectGuid>
+    <ProjectGuid>59ab91f7-90db-491e-8284-847b4548a125</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Jour1_1.py</StartupFile>
+    <StartupFile>jour2_2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Jour1_1</Name>
-    <RootNamespace>Jour1_1</RootNamespace>
+    <Name>Jour2</Name>
+    <RootNamespace>Jour2</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Jour1_1.py" />
+    <Compile Include="Jour2_1.py" />
+    <Compile Include="jour2_2.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="input.txt" />
